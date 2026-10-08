@@ -7,7 +7,6 @@
     :serial t
     :depends-on (#:binary-types
                  #:alexandria
-                 #:local-time
-                 #:cl-event-handler)
+                 #:local-time)
     :components ((:file "package")
                  (:file "evdev")))

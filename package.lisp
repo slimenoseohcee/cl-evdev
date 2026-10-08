@@ -1,7 +1,7 @@
 ;;;; package.lisp
 
 (defpackage #:cl-evdev
-  (:use #:cl #:binary-types #:alexandria #:local-time #:cl-event-handler)
+  (:use #:cl #:binary-types #:alexandria #:local-time)
   (:documentation "Linux keyboard event input driver.")
   (:export #:with-evdev-device
 

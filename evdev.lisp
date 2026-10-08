@@ -195,6 +195,13 @@ linux/include/uapi/linux/input.h. This is used to read in each event straight
 from raw evdev data. Unix time values bit widths differ on 32/64bit systems and
 based on the return value of (machine-type) in SBCL."))
 
+(defclass event ()
+  ((sender :initarg :sender
+           :type handler
+           :reader sender))
+  (:documentation "An event. SENDER contains the HANDLER to use for
+responses."))
+
 (defclass input-event (event)
   ((timestamp :initarg :timestamp
               :type duration))
