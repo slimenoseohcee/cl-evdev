@@ -1,5 +1,8 @@
 * cl-evdev: a Linux /dev/input driver for CL
 
+  - Future commits will be located here:
+  - https://codeberg.org/slimenoseohcee/cl-evdev
+
   - SlimeNose note: this is a fork of jtgans cl-evdev. The rest of this Readme will remain unchanged until I make more significant changes
   - Note2: The functionality of this project will be extended, to allow me to write a chording input program (cl-uinput will also be used and changed). After that, I may shoot for a full implementation, provided jtgans and other contributors don't extend the functionality of the original repo. 
   - I already have a semi complete chording program, called khordie. Khordie will be rewritten in CL, as I much prefer CL to every other language I have tried
